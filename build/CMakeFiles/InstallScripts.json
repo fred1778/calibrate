@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/fredcg/Desktop/Dev/calibrate/calibrate/build/cmake_install.cmake",
+		"/Users/fredcg/Desktop/Dev/calibrate/calibrate/build/vendored/SDL/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
