@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/fredcg/Desktop/Dev/calibrate/calibrate/build/vendored/SDL/include-revision -I/Users/fredcg/Desktop/Dev/calibrate/calibrate/vendored/SDL/include
+CXX_INCLUDES = -I/Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/build/vendored/SDL/include-revision -I/Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include
 
 CXX_FLAGSarm64 =  -arch arm64
 

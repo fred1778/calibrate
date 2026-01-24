@@ -52,7 +52,7 @@ add_library(SDL3::SDL3-shared SHARED IMPORTED)
 set_target_properties(SDL3::SDL3-shared PROPERTIES
   COMPATIBLE_INTERFACE_BOOL "SDL3_SHARED"
   COMPATIBLE_INTERFACE_STRING "SDL_VERSION"
-  INTERFACE_LINK_DEPENDS "/Users/fredcg/Desktop/Dev/calibrate/calibrate/vendored/SDL/src/dynapi/SDL_dynapi.sym"
+  INTERFACE_LINK_DEPENDS "/Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/src/dynapi/SDL_dynapi.sym"
   INTERFACE_LINK_LIBRARIES "SDL3::Headers"
   INTERFACE_SDL3_SHARED "TRUE"
   INTERFACE_SDL_VERSION "SDL3"
@@ -62,7 +62,7 @@ set_target_properties(SDL3::SDL3-shared PROPERTIES
 # Import target "SDL3::SDL3-shared" for configuration ""
 set_property(TARGET SDL3::SDL3-shared APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(SDL3::SDL3-shared PROPERTIES
-  IMPORTED_LOCATION_NOCONFIG "/Users/fredcg/Desktop/Dev/calibrate/calibrate/build/libSDL3.0.dylib"
+  IMPORTED_LOCATION_NOCONFIG "/Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/build/libSDL3.0.dylib"
   IMPORTED_SONAME_NOCONFIG "@rpath/libSDL3.0.dylib"
   )
 

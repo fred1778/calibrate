@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DUSING_GENERATED_CONFIG_H
 
-C_INCLUDES = -I/Users/fredcg/Desktop/Dev/calibrate/calibrate/build/vendored/SDL/include-config-/build_config -I/Users/fredcg/Desktop/Dev/calibrate/calibrate/vendored/SDL/src -I/Users/fredcg/Desktop/Dev/calibrate/calibrate/vendored/SDL/include
+C_INCLUDES = -I/Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/build/vendored/SDL/include-config-/build_config -I/Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/src -I/Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include
 
 C_FLAGSarm64 =  -arch arm64 -fPIC -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wdocumentation -Wdocumentation-unknown-command -fcomment-block-commands=threadsafety -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fcolor-diagnostics
 

@@ -1,8 +1,8 @@
-/Users/fredcg/Desktop/Dev/calibrate/calibrate/build/CMakeFiles/calibrate.dir
-/Users/fredcg/Desktop/Dev/calibrate/calibrate/build/CMakeFiles/edit_cache.dir
-/Users/fredcg/Desktop/Dev/calibrate/calibrate/build/CMakeFiles/rebuild_cache.dir
-/Users/fredcg/Desktop/Dev/calibrate/calibrate/build/vendored/SDL/CMakeFiles/SDL3-shared.dir
-/Users/fredcg/Desktop/Dev/calibrate/calibrate/build/vendored/SDL/CMakeFiles/SDL3_test.dir
-/Users/fredcg/Desktop/Dev/calibrate/calibrate/build/vendored/SDL/CMakeFiles/SDL_uclibc.dir
-/Users/fredcg/Desktop/Dev/calibrate/calibrate/build/vendored/SDL/CMakeFiles/edit_cache.dir
-/Users/fredcg/Desktop/Dev/calibrate/calibrate/build/vendored/SDL/CMakeFiles/rebuild_cache.dir
+/Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/build/CMakeFiles/calibrate.dir
+/Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/build/CMakeFiles/edit_cache.dir
+/Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/build/CMakeFiles/rebuild_cache.dir
+/Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/build/vendored/SDL/CMakeFiles/SDL3-shared.dir
+/Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/build/vendored/SDL/CMakeFiles/SDL3_test.dir
+/Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/build/vendored/SDL/CMakeFiles/SDL_uclibc.dir
+/Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/build/vendored/SDL/CMakeFiles/edit_cache.dir
+/Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/build/vendored/SDL/CMakeFiles/rebuild_cache.dir
