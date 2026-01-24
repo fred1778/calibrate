@@ -1,2 +1,2 @@
-# calibrate
-Visual calendar in CPP using SDL3
+# Calibrate
+Visual calendar in C++ using SDL3
