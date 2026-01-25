@@ -4,7 +4,7 @@
 #include <iostream>
 #include <tuple>
 #include <time.h>
-#include "config.h"
+#include "DayModel.hh"
 
 using namespace std;
 
@@ -31,6 +31,12 @@ class Interface {
         SDL_SetRenderLogicalPresentation(rend, windowWidth, windowHeight, SDL_LOGICAL_PRESENTATION_LETTERBOX);
         isRunning = true;
     }
+
+
+    void render(){
+        // draw calander grid
+    }
+
 
     void interfaceLoop(){
 
@@ -76,6 +82,20 @@ class Interface {
 
 int main(int argc, char* argv[]){
     
+    SDL_Time today;
+    SDL_DateTime today_dt;    
+    SDL_DateTime end_dt;    
+
+    SDL_GetCurrentTime(&today);
+    SDL_TimeToDateTime(today, &today_dt, false);
+    SDL_Time end = (SDL_NS_TO_SECONDS(today) + (100 * DAYSECONDS));
+     SDL_TimeToDateTime(end, &end_dt, false);
+
+     
+    Day* range;
+
+    generateFromDate(today_dt, end_dt, &range);
+
     Interface interface = Interface();
     interface.interfaceLoop();
     interface.stop();

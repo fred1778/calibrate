@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/calibrate.dir/DayModel.cpp.o"
+  "CMakeFiles/calibrate.dir/DayModel.cpp.o.d"
   "CMakeFiles/calibrate.dir/calibrate.cpp.o"
   "CMakeFiles/calibrate.dir/calibrate.cpp.o.d"
   "calibrate"

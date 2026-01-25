@@ -169,6 +169,30 @@ SDL_uclibc/fast:
 	$(MAKE) $(MAKESILENT) -f vendored/SDL/CMakeFiles/SDL_uclibc.dir/build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/build
 .PHONY : SDL_uclibc/fast
 
+DayModel.o: DayModel.cpp.o
+.PHONY : DayModel.o
+
+# target to build an object file
+DayModel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/DayModel.cpp.o
+.PHONY : DayModel.cpp.o
+
+DayModel.i: DayModel.cpp.i
+.PHONY : DayModel.i
+
+# target to preprocess a source file
+DayModel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/DayModel.cpp.i
+.PHONY : DayModel.cpp.i
+
+DayModel.s: DayModel.cpp.s
+.PHONY : DayModel.s
+
+# target to generate assembly for a file
+DayModel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/DayModel.cpp.s
+.PHONY : DayModel.cpp.s
+
 calibrate.o: calibrate.cpp.o
 .PHONY : calibrate.o
 
@@ -205,6 +229,9 @@ help:
 	@echo "... SDL3_test"
 	@echo "... SDL_uclibc"
 	@echo "... calibrate"
+	@echo "... DayModel.o"
+	@echo "... DayModel.i"
+	@echo "... DayModel.s"
 	@echo "... calibrate.o"
 	@echo "... calibrate.i"
 	@echo "... calibrate.s"
