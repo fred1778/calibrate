@@ -157,8 +157,6 @@ int main(int argc, char* argv[]){
 
     Interface interface = Interface();
 
-
-
     SDL_Log("Intf on");
     interface.interfaceLoop();
 
