@@ -174,7 +174,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.o: /Users/fredcg/Deskt
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -418,7 +418,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.o: /Users/fredcg/Desktop
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -662,7 +662,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.o: /Users/fredcg/Deskto
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -906,7 +906,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.o: /Users/fredcg/Desktop
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -1150,7 +1150,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.o: /Users/fredcg/Deskt
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -1394,7 +1394,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.o: /Users/fredcg/Desktop
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -1638,7 +1638,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.o: /Users/fredcg/De
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -1882,7 +1882,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.o: /Users/fredcg/Deskto
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -2126,7 +2126,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.o: /Users/fredcg/Desktop
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -2370,7 +2370,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.o: /Users/fredcg/De
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -2614,7 +2614,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.o: /Users/fredcg/Desktop
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -2858,7 +2858,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.o: /Users/fredcg/Desktop
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -3102,7 +3102,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.o: /Users/fredcg/Deskto
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -3346,7 +3346,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.o: /Users/fredcg/De
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -3590,7 +3590,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.o: /Users/fredcg/Desktop
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -3834,7 +3834,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.o: /Users/fredcg/Deskto
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -4078,7 +4078,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.o: /Users/fredcg/Deskt
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -4322,7 +4322,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.o: /Users/fredcg/Deskt
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -4565,7 +4565,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.o: /Users/fredcg/Desk
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -4808,7 +4808,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.o: /Users/fredcg/Deskt
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -5051,7 +5051,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.o: /Users/fredcg/Desk
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -5294,7 +5294,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.o: /Users/fredcg/Deskto
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -5544,7 +5544,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.o: /Users/fredcg/Desk
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -5788,7 +5788,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.o: /Users/fredcg/Desktop
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -6032,7 +6032,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.o: /Users/fredcg/Desktop
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_assert.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_asyncio.h \
@@ -6296,8 +6296,6 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.o: /Users/fredcg/Desktop
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timespec.h:
 
-vendored/SDL/include-config-/build_config/SDL_build_config.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_char.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:
@@ -6527,6 +6525,8 @@ vendored/SDL/include-config-/build_config/SDL_build_config.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h:
+
+vendored/SDL/include-config-debug/build_config/SDL_build_config.h:
 
 /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_surface.h:
 

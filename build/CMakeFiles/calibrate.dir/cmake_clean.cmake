@@ -3,8 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/calibrate.dir/DayModel.cpp.o.d"
   "CMakeFiles/calibrate.dir/calibrate.cpp.o"
   "CMakeFiles/calibrate.dir/calibrate.cpp.o.d"
-  "calibrate"
-  "calibrate.pdb"
+  "DEBUG/calibrate"
+  "DEBUG/calibrate.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -6,7 +6,7 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/build/vendored/SDL/include-revision -I/Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include
 
-CXX_FLAGSarm64 =  -arch arm64
+CXX_FLAGSarm64 = -g -arch arm64
 
-CXX_FLAGS =  -arch arm64
+CXX_FLAGS = -g -arch arm64
 

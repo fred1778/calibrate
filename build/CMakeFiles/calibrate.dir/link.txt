@@ -1,1 +1,1 @@
-/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/calibrate.dir/calibrate.cpp.o CMakeFiles/calibrate.dir/DayModel.cpp.o -o calibrate  -Wl,-rpath,/Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/build libSDL3.0.dylib
+/usr/bin/c++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/calibrate.dir/calibrate.cpp.o CMakeFiles/calibrate.dir/DayModel.cpp.o -o DEBUG/calibrate  -Wl,-rpath,/Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/build/DEBUG DEBUG/libSDL3.0.dylib

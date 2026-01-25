@@ -24,7 +24,9 @@
 
 constexpr int windowWidth{ 800 };
 constexpr int windowHeight{ 600 };
-constexpr int sqSize{25};
+constexpr int sqSize{50};
+constexpr int x_count{10};
+constexpr int y_count{10};
 
 enum DayType{
     WORKDAY,
@@ -41,7 +43,7 @@ class Day {
     public:
     
      SDL_DateTime date;
-     DayType dtype;
+     //DayType dtype;
 
 
 
@@ -50,12 +52,12 @@ class Day {
 
         
         this->date = day;
-        int DoW = SDL_GetDayOfWeek(day.year, day.month, day.day);
+      /*  int DoW = SDL_GetDayOfWeek(day.year, day.month, day.day);
         if(DoW != DAYERROR){
             dtype = (DoW > 0 && DoW < 6) ? DayType::WORKDAY : DayType::WEEKEND;
 
             // specific date  BH allocation here - not sure if this can be wrangled from OS 
-        }
+        }*/
      }
 
     
@@ -69,29 +71,37 @@ static void generateFromDate(SDL_DateTime start, SDL_DateTime end, Day** collect
 
         // using ctime would make this easier....
 
-        Sint64 end_t, start_t, span;
-        
+        Sint64 end_t, start_t;
+        long span;
+
+        SDL_Log("gen start");
+
         SDL_DateTimeToTime(&end, &end_t);
         SDL_DateTimeToTime(&start, &start_t);
         span = end_t - start_t;
-
+    SDL_Log("end_t %lld, start_t %lld", end_t, start_t);
         // work in time_t not SDL as seconds better than nanoseconds for calcs
         time_t root = SDL_NS_TO_SECONDS(start_t);
         time_t span_sec = SDL_NS_TO_SECONDS(span);
-        int span_count = span_sec / DAYSECONDS;
+         SDL_Log("Span: %ld root: %ld, spanSec: %ld", span, root, span_sec);
+
+        long span_count = span_sec / DAYSECONDS;
+             SDL_Log("Span sec %ld Span count: %ld", span_count, span_sec);
+
         Day* days[span_count];
 
         for(int i = 1; i <= span_count; i++){
-
+            SDL_Log("DAY CALL");
             SDL_Time newTime = SDL_SECONDS_TO_NS(root + (i * DAYSECONDS));
             SDL_DateTime newDay;
             if(!SDL_TimeToDateTime(newTime, &newDay, false)){
                 return;
             }
             Day nextDay = Day(newDay);
-            std::cout<<newDay.day;
+            SDL_Log("Day: %d", newDay.day);
 
             collection[i-1] = &nextDay;
+            SDL_Log("update collection");
         }
     }
 #endif

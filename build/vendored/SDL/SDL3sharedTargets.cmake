@@ -59,11 +59,11 @@ set_target_properties(SDL3::SDL3-shared PROPERTIES
   SDL_FULL_VERSION "3.5.0"
 )
 
-# Import target "SDL3::SDL3-shared" for configuration ""
-set_property(TARGET SDL3::SDL3-shared APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
+# Import target "SDL3::SDL3-shared" for configuration "DEBUG"
+set_property(TARGET SDL3::SDL3-shared APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(SDL3::SDL3-shared PROPERTIES
-  IMPORTED_LOCATION_NOCONFIG "/Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/build/libSDL3.0.dylib"
-  IMPORTED_SONAME_NOCONFIG "@rpath/libSDL3.0.dylib"
+  IMPORTED_LOCATION_DEBUG "/Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/build/DEBUG/libSDL3.0.dylib"
+  IMPORTED_SONAME_DEBUG "@rpath/libSDL3.0.dylib"
   )
 
 # Make sure the targets which have been exported in some other

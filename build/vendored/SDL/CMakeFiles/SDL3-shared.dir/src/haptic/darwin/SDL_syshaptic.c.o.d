@@ -2,7 +2,7 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/darwin/SDL_syshaptic.c.o: \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/build/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.c \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/build/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/src/SDL_internal.h \
-  /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/build/vendored/SDL/include-config-/build_config/SDL_build_config.h \
+  /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/build/vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
   /Users/fredcg/Desktop/Dev/calibrate_contain/calibrate/vendored/SDL/include/SDL3/SDL_platform_defines.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h \
