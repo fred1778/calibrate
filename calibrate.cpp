@@ -5,6 +5,8 @@
 #include <tuple>
 #include "DayModel.hh"
 #include <vector>
+#include <fstream>
+#include "events.h"
 
 using namespace std;
 
@@ -22,6 +24,9 @@ class Interface {
 
     Interface(){
 
+
+      // EventManager eventManager = EventManager();
+       // eventManager.loadEvents();
         window = nullptr;
         isRunning = false;
 
@@ -207,7 +212,20 @@ class Interface {
 
 
 int main(int argc, char* argv[]){
+    string myText;
+    ifstream filestream;
+    filestream.open("odl.txt");
+    if (filestream.is_open()) {
+        while (getline (filestream, myText)){
+            cout << "XXX";
+            cout << myText;
 
+    }
+    } else {
+        cout << "Error opening file";
+    }
+
+    cout << "SDED";
     Interface interface = Interface();
     interface.interfaceLoop();
     interface.stop();
