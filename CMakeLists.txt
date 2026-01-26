@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.16)
+cmake_minimum_required(VERSION 3.5)
 project(calibrate)
 
 # set the output directory for built objects.
@@ -7,10 +7,11 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
 
 
-
+find_package(nlohmann_json 3.12.0 REQUIRED)
 
 add_subdirectory(vendored/SDL EXCLUDE_FROM_ALL)
-add_executable(calibrate calibrate.cpp DayModel.cpp DayModel.hh)
+add_executable(calibrate calibrate.cpp DayModel.cpp DayModel.hh
+        events.h)
 
-target_link_libraries(calibrate PRIVATE SDL3::SDL3)
+target_link_libraries(calibrate PRIVATE SDL3::SDL3 nlohmann_json::nlohmann_json)
 set_target_properties(calibrate PROPERTIES LINKER_LANGUAGE CXX)
