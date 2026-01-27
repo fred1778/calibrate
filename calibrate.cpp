@@ -98,6 +98,8 @@ class Interface {
                             SDL_SetRenderDrawColor(rend, 255, 255, 255, SDL_ALPHA_OPAQUE);
                             SDL_RenderDebugText(rend, 300, 10, dayStr.c_str());
 
+                            dayInfoRender(d.date);
+
                         } else if (!eventForDay(eventManager, d.date).empty()){
 
                             SDL_SetRenderDrawColor(rend, 204, 43,  158, 70);
@@ -112,17 +114,14 @@ class Interface {
                             SDL_RenderFillRect(rend, &rect);
                         } else {
                                 SDL_SetRenderDrawColor(rend, red, green,  blue, SDL_ALPHA_OPAQUE);
-
-
                                 SDL_RenderRect(rend, &rect);
                         }
 
                         // day specific render text
 
-
-
                         tally++;
                     }
+
                 }
             }
 
@@ -130,12 +129,30 @@ class Interface {
         // text
         int charsize = SDL_DEBUG_TEXT_FONT_CHARACTER_SIZE;
         SDL_SetRenderDrawColor(rend, 255, 255, 255, SDL_ALPHA_OPAQUE);
-        SDL_RenderDebugText(rend, 10, 10, "CALIBRATE 2026");
+        SDL_RenderDebugText(rend, 10, 10, "CALIBRATE 2026 :: 100 DAY OUTLOOK");
 
     SDL_RenderPresent(rend);
 
     }
 
+    void dayInfoRender(Day day) {
+        SDL_SetRenderDrawColor(rend, 255, 255, 255, SDL_ALPHA_OPAQUE);
+        vector<Event> events = eventForDay(eventManager, day.date);
+        int count = 0;
+        int vertical_displacement = 20;
+        if (!events.empty()) {
+            for (auto ev : eventForDay(eventManager, day.date)) {
+                int ypos = 50 + (count*vertical_displacement);
+                SDL_RenderDebugText(rend, 600, ypos, ev.lineDisplay.c_str());
+                count++;
+            }
+
+        } else {
+        SDL_RenderDebugText(rend, 600, 50, " No events scheduled");
+        }
+
+      //  return eventsInfo;
+    }
 
     void interfaceLoop(){
         //SDL_Log("ILOOP FUNC");

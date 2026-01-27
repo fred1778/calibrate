@@ -28,12 +28,14 @@ void EventManager::loadEvents() {
         eventDT.hour = data[i].at("hour");
         eventDT.minute = data[i].at("minute");
 
+        string time = to_string(data[i].at("hour")) + ":" + to_string(data[i].at("minute")) + "  " + to_string(data[i].at("title"));
         Event newEvent = {
             data[i].at("id"),
             eventDT,
             data[i].at("title"),
             data[i].at("notes"),
             data[i].at("loc"),
+            time
         };
         this->events.push_back(newEvent);
     }

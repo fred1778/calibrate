@@ -19,6 +19,8 @@ struct Event {
     string title;
     string notes;
     string location;
+
+    string lineDisplay;
 };
 
 

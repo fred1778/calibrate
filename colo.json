@@ -9,6 +9,18 @@
   "notes": "Party avx",
   "loc": "oxford"
 },
+    {"id": "290380223",
+      "day" : 31,
+      "month" : 1,
+      "year" : 2026,
+      "hour" : 10,
+      "minute" : 0,
+      "title": "ASC Intersect",
+      "notes": "BDSE3",
+      "loc": "oxford"
+    },
+
+
     {"id": "9389038442",
       "day" : 2,
       "month" : 3,
