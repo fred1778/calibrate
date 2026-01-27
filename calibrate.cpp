@@ -21,12 +21,11 @@ class Interface {
     bool isRunning;
     SDL_Renderer* rend;
     vector<Day> days;
-
+    EventManager eventManager;
     Interface(){
 
-
-      // EventManager eventManager = EventManager();
-       // eventManager.loadEvents();
+        eventManager = EventManager();
+        eventManager.loadEvents();
         window = nullptr;
         isRunning = false;
 
@@ -99,16 +98,19 @@ class Interface {
                             SDL_SetRenderDrawColor(rend, 255, 255, 255, SDL_ALPHA_OPAQUE);
                             SDL_RenderDebugText(rend, 300, 10, dayStr.c_str());
 
+                        } else if (!eventForDay(eventManager, d.date).empty()){
+
+                            SDL_SetRenderDrawColor(rend, 204, 43,  158, 70);
+                            SDL_RenderFillRect(rend, &rect);
                         } else if (d.dtype == WEEKEND) {
                             SDL_SetRenderDrawColor(rend, 0, 0,  255, 70);
 
                             SDL_RenderFillRect(rend, &rect);
-                        } else if (d.dtype == SIGNIFICANT){
+                        } else if (d.dtype == SIGNIFICANT) {
                             SDL_SetRenderDrawColor(rend, 255, 153,  0, 70);
 
                             SDL_RenderFillRect(rend, &rect);
-
-                            } else {
+                        } else {
                                 SDL_SetRenderDrawColor(rend, red, green,  blue, SDL_ALPHA_OPAQUE);
 
 
@@ -212,20 +214,8 @@ class Interface {
 
 
 int main(int argc, char* argv[]){
-    string myText;
-    ifstream filestream;
-    filestream.open("odl.txt");
-    if (filestream.is_open()) {
-        while (getline (filestream, myText)){
-            cout << "XXX";
-            cout << myText;
 
-    }
-    } else {
-        cout << "Error opening file";
-    }
 
-    cout << "SDED";
     Interface interface = Interface();
     interface.interfaceLoop();
     interface.stop();

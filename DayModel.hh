@@ -6,7 +6,7 @@
 #include <tuple>
 #include <time.h>
 #include <vector>
-
+#include "events.h"
 
 
 #ifndef DAYMODEL_H
@@ -87,10 +87,10 @@ class Day {
     }
 
 
+
     bool dateCompare(tuple<int, int, int, string> s_date) {
         return date.day == get<0>(s_date) && date.month == get<1>(s_date) && date.year == get<2>(s_date);
     }
-
 
 
     public:
@@ -104,7 +104,6 @@ class Day {
 
          display = daynames[date.day_of_week] + "    " + to_string(date.day) + " " + months[date.month - 1] + " " + to_string(date.year);
 
-
         int DoW = SDL_GetDayOfWeek(sdlday.year, sdlday.month, sdlday.day);
          SDL_Log("DoW: %d", DoW);
         if(DoW != DAYERROR){
@@ -115,13 +114,21 @@ class Day {
                 dtype = (DoW > 0 && DoW < 6) ? DayType::WORKDAY : DayType::WEEKEND;
             }
             SDL_Log("day type %d", dtype);
-            // specific date  BH allocation here - not sure if this can be wrangled from OS 
         }
      }
-
-    
-
 };
+
+
+static vector<Event> eventForDay(EventManager eMan, SDL_DateTime date) {
+    vector<Event> valid_events;
+    for (auto ev : eMan.events) {
+        if (ev.eventDateTime.day == date.day && ev.eventDateTime.month == date.month && ev.eventDateTime.year == date.year) {
+            valid_events.push_back(ev);
+            SDL_Log("Event found **");
+        }
+    }
+    return valid_events;
+}
 
 
 

@@ -1,9 +1,24 @@
 
-  {"id": "9420200223",
-  "date": "31-01-26",
-  "time": "18:00",
+  [{"id": "9420200223",
+    "day" : 31,
+    "month" : 1,
+    "year" : 2026,
+    "hour" : 18,
+    "minute" : 0,
   "title": "Party",
   "notes": "Party avx",
   "loc": "oxford"
-}
+},
+    {"id": "9389038442",
+      "day" : 2,
+      "month" : 3,
+      "year" : 2026,
+      "hour" : 9,
+      "minute" : 0,
+      "title": "Meeting",
+      "notes": "Special meeting",
+      "loc": "London"
+    }
+
+  ]
 

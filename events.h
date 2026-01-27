@@ -5,6 +5,8 @@
 #define CALIBRATE_EVENTS_H
 #include <nlohmann/json.hpp>
 #include <vector>
+
+#include "SDL3/SDL_time.h"
 using json = nlohmann::json;
 
 using namespace std;
@@ -13,10 +15,10 @@ using namespace std;
 struct Event {
 
     string id;
-    string date;
-    string time;
+    SDL_DateTime eventDateTime;
     string title;
     string notes;
+    string location;
 };
 
 
