@@ -8,7 +8,6 @@
 #include <vector>
 #include "events.h"
 
-
 #ifndef DAYMODEL_H
 #define DAYMODEL_H
 
@@ -26,11 +25,12 @@
 #define NOSTR ""
 
 
-constexpr int windowWidth{ 800 };
-constexpr int windowHeight{ 600 };
-constexpr int sqSize{50};
-constexpr int x_count{10};
-constexpr int y_count{10};
+constexpr int windowWidth{ 850 };
+constexpr int windowHeight{ 700 };
+
+constexpr int sqSize{30};
+constexpr int x_count{18};
+constexpr int y_count{20};
 
 
 
@@ -134,9 +134,10 @@ static vector<Event> eventForDay(EventManager eMan, SDL_DateTime date) {
 
 static vector<Day> generateFromDate(SDL_DateTime start, int span){
 
+        SDL_Log("Yr: %i", start.year);
         // using ctime would make this easier....
         vector<Day> days;
-        Sint64 end_t, start_t;
+        Sint64  start_t;
         SDL_Log("gen start");
         SDL_DateTimeToTime(&start, &start_t);
         // work in time_t not SDL as seconds better than nanoseconds for calcs

@@ -28,7 +28,15 @@ void EventManager::loadEvents() {
         eventDT.hour = data[i].at("hour");
         eventDT.minute = data[i].at("minute");
 
-        string time = to_string(data[i].at("hour")) + ":" + to_string(data[i].at("minute")) + "  " + to_string(data[i].at("title"));
+        int min = data[i].at("minute");
+        string min_str;
+        if (min == 0) {
+            min_str = "00";
+        } else {
+            min_str = to_string(min);
+        }
+
+        string time = to_string(data[i].at("hour")) + ":" + min_str + "  " + to_string(data[i].at("title"));
         Event newEvent = {
             data[i].at("id"),
             eventDT,

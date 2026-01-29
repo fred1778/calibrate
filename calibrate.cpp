@@ -6,7 +6,16 @@
 #include "DayModel.hh"
 #include <vector>
 #include <fstream>
+
+#include "EventMaker.h"
 #include "events.h"
+
+
+#define DATENTRY "-d"
+#define INTERFACE "-g"
+
+
+
 
 using namespace std;
 
@@ -16,19 +25,20 @@ class Interface {
     SDL_Window* window;
     vector<vector<Day>> calFramework;
     tuple<int, int> selectedDay = make_tuple(0,0);
-    int dayCount = 100;
+    int dayCount = 365;
 
     bool isRunning;
     SDL_Renderer* rend;
     vector<Day> days;
     EventManager eventManager;
+    string eventStr;
     Interface(){
 
         eventManager = EventManager();
         eventManager.loadEvents();
         window = nullptr;
         isRunning = false;
-
+        eventStr = "";
        window = SDL_CreateWindow("Calibrate v0.1", windowWidth, windowHeight, SDL_WINDOW_RESIZABLE);
       rend = SDL_CreateRenderer(window, nullptr);
         SDL_Time today;
@@ -38,18 +48,14 @@ class Interface {
 
          SDL_SetRenderDrawBlendMode(rend, SDL_BLENDMODE_BLEND);
 
-        SDL_GetCurrentTime(&today);
-        SDL_TimeToDateTime(today, &today_dt, false);
-        SDL_Time end = SDL_SECONDS_TO_NS((SDL_NS_TO_SECONDS(today) + (100 * DAYSECONDS)));
-        SDL_TimeToDateTime(end, &end_dt, false);
-        days = generateFromDate(today_dt, 100);
+        SDL_DateTime SoY;
+        SoY.day = 31;
+        SoY.month = 12;
+        SoY.year = 2025;
+        SoY.hour = 0;
+        SoY.minute = 0;
 
-        for (auto day : days) {
-            SDL_Log("-> %d", day.date.day);
-        }
-
-
-
+        days = generateFromDate(SoY, 365);
 
        SDL_Log("screen go");
 
@@ -69,6 +75,10 @@ class Interface {
 
     void render(){
         // draw calander grid
+
+
+
+
         SDL_SetRenderDrawColor(rend, 54, 54, 54, SDL_ALPHA_OPAQUE);
         SDL_RenderClear(rend);
             int tally = 0;
@@ -96,7 +106,7 @@ class Interface {
                             SDL_RenderFillRect(rend, &rect);
                             string dayStr = d.display;
                             SDL_SetRenderDrawColor(rend, 255, 255, 255, SDL_ALPHA_OPAQUE);
-                            SDL_RenderDebugText(rend, 300, 10, dayStr.c_str());
+                            SDL_RenderDebugText(rend, 550, 25, dayStr.c_str());
 
                             dayInfoRender(d.date);
 
@@ -136,19 +146,30 @@ class Interface {
     }
 
     void dayInfoRender(Day day) {
+
         SDL_SetRenderDrawColor(rend, 255, 255, 255, SDL_ALPHA_OPAQUE);
         vector<Event> events = eventForDay(eventManager, day.date);
         int count = 0;
-        int vertical_displacement = 20;
+        int vertical_displacement = 100;
         if (!events.empty()) {
             for (auto ev : eventForDay(eventManager, day.date)) {
-                int ypos = 50 + (count*vertical_displacement);
+                int ypos = 100 + (count*vertical_displacement);
+
+                SDL_FRect evText;
+                evText.x = 575;
+                evText.y = ypos - 25;
+                evText.h = 80;
+                evText.w = 220;
+
+                SDL_RenderRect(rend, &evText);
+
+
                 SDL_RenderDebugText(rend, 600, ypos, ev.lineDisplay.c_str());
                 count++;
             }
 
         } else {
-        SDL_RenderDebugText(rend, 600, 50, " No events scheduled");
+        SDL_RenderDebugText(rend, 600, 150, " No events scheduled");
         }
 
       //  return eventsInfo;
@@ -229,12 +250,24 @@ class Interface {
 
 
 
-
 int main(int argc, char* argv[]){
 
+    if (argc > 1) {
+        string instruction = argv[1];
+        if (instruction == DATENTRY) {
+            string evText;
+            cout << "Enter event data [dd/mm/yyyy/hh/mm-title-notes-location]:";
+            cin >> evText;
+            EventMaker eventMaker = EventMaker(evText);
 
-    Interface interface = Interface();
-    interface.interfaceLoop();
-    interface.stop();
+        } else if (instruction == INTERFACE) {
+            Interface interface = Interface();
+            interface.interfaceLoop();
+            interface.stop();
+        }
+    }
+
     return 0;
+
 }
+
